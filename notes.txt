@@ -1,0 +1,2 @@
+no 'var' necessary
+no semicolon
