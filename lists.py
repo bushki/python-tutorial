@@ -3,6 +3,7 @@
 # create list
 numbers = [5,3,1]
 fruits = ['apples', 'oranges', 'grapes', 'bananas']
+print (type(fruits))
 
 # using constructor
 numbers2 = list((4,7,3))
