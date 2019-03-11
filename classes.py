@@ -34,8 +34,7 @@ print('*******')
 
 class Customer(User):
     def __init__(self, name, age):
-        self.name = name
-        self.age = age
+        User.__init__(self, name, age)
         self.balance = 0
 
     def set_balance(self, balance):
