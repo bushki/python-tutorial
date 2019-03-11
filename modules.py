@@ -6,6 +6,7 @@
 
 #import datetime
 # import just date
+from validator import validate_email
 from datetime import date
 from time import time
 
@@ -26,3 +27,10 @@ print(timeStamp)
 # use camelcase
 c = CamelCase()
 print(c.hump('hello there world'))
+
+# import custom module
+myEmail = 'test@b.com'
+if(validate_email(myEmail)):
+    print(f'{myEmail} is valid email')
+else:
+    print(f'{myEmail} is bad')
