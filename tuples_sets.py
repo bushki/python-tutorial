@@ -55,6 +55,10 @@ print ('Apples' in fruits_set)
 fruits_set.add('grape')
 print(fruits_set)
 
+# add dupe - will not add and no error
+fruits_set.add('grape')
+print(fruits_set)
+
 # remove from set (will throw error if element not found)
 fruits_set.remove('grape')
 print(fruits_set)
